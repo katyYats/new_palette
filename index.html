@@ -6,44 +6,42 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="wrapper">
-            <header>
-                <img class="nav_icon" src="assets/images/nav_icon.png" alt="nav"> 
-                <h1>CodeJam - Pallete</h1>
-                <img class="menu_icon" src="assets/images/menu_icon.png" alt="menu"> 
-            </header>
-            <main>
-                <section class="aside">
-                    <div class="tools__container">
-                        <ul class="tools__container-list">
-                            <li class="tools__container-item"><span><img data-action="paint" src="assets/images/paint_bucket.png" alt="paint_bucket"></span><p>Paint bucket</p></li>
-                            <li class="tools__container-item"><span><img data-action="choose" src="assets/images/color_picker.png" alt="color_picker"></span><p>Choose color</p></li>
-                            <li class="tools__container-item"><span><img data-action="move" src="assets/images/move_tool.png" alt="move_tool"></span><p>Move</p></li>
-                            <li class="tools__container-item"><span><img data-action="transform" src="assets/images/transform_tool.png" alt="transform_tool"></span><p>Transform</p></li>
-                        </ul>
-                    </div>
-                    <div class="colors__container">
-                        <ul class="colors__container-list">
-                            <li class="colors__container-item"><span class="currentColor"></span><p>Current color</p></li>
-                            <li class="colors__container-item"><span class="previousColor"></span><p>Prev color</p></li>
-                            <li class="colors__container-item"><span class="red"></span><p>red</p></li>
-                            <li class="colors__container-item"><span class="blue"></span><p>blue</p></li>
-                        </ul>
-                    </div>
-                </section>
-                <section class="canvas">
-                    <div class="square" draggable="true"></div>
-                    <div class="square" draggable="true"></div>
-                    <div class="square" draggable="true"></div>
-                    <div class="square" draggable="true"></div>
-                    <div class="square" draggable="true"></div>
-                    <div class="square" draggable="true"></div>
-                    <div class="circle" draggable="true"></div>
-                    <div class="square" draggable="true"></div>
-                    <div class="square" draggable="true"></div>
-                </section>
-            </main>
-        </div>
+        <header>
+            <img class="nav_icon" src="assets/images/nav_icon.png" alt="nav"> 
+            <h1>CodeJam - Pallete</h1>
+            <img class="menu_icon" src="assets/images/menu_icon.png" alt="menu"> 
+        </header>
+        <main>
+            <section class="aside">
+                <div class="tools__container">
+                    <ul class="tools__container-list">
+                        <li class="tools__container-item"><span><img data-action="paint" src="assets/images/paint_bucket.png" alt="paint_bucket"></span><p>Paint bucket</p></li>
+                        <li class="tools__container-item"><span><img data-action="choose" src="assets/images/color_picker.png" alt="color_picker"></span><p>Choose color</p></li>
+                        <li class="tools__container-item"><span><img data-action="move" src="assets/images/move_tool.png" alt="move_tool"></span><p>Move</p></li>
+                        <li class="tools__container-item"><span><img data-action="transform" src="assets/images/transform_tool.png" alt="transform_tool"></span><p>Transform</p></li>
+                    </ul>
+                </div>
+                <div class="colors__container">
+                    <ul class="colors__container-list">
+                        <li class="colors__container-item"><span class="currentColor"></span><p>Current color</p></li>
+                        <li class="colors__container-item"><span class="previousColor"></span><p>Prev color</p></li>
+                        <li class="colors__container-item"><span class="red"></span><p>red</p></li>
+                        <li class="colors__container-item"><span class="blue"></span><p>blue</p></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="canvas">
+                <div class="square" draggable="true"></div>
+                <div class="square" draggable="true"></div>
+                <div class="square" draggable="true"></div>
+                <div class="square" draggable="true"></div>
+                <div class="square" draggable="true"></div>
+                <div class="square" draggable="true"></div>
+                <div class="circle" draggable="true"></div>
+                <div class="square" draggable="true"></div>
+                <div class="square" draggable="true"></div>
+            </section>
+        </main>
         <script src="script.js"></script>
     </body>
 </html>

@@ -13,8 +13,6 @@ ul {
 }
 body {
     background-color: #ffffff;
-}
-.wrapper {
     position: relative;
     max-width: 1800px;
     height: 900px;
